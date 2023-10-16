@@ -19,20 +19,12 @@ class App extends Component {
         this.setState({
           robots: [
             {
-              id: 1,
+              id: 120,
               name: "Himanshu Sharma",
               username: "codingcroc01",
               email: "reaching.himanshu@gmail.com",
             },
-            users[1],
-            users[2],
-            users[3],
-            users[4],
-            users[5],
-            users[6],
-            users[7],
-            users[8],
-            users[9],
+            ...users,
           ],
         })
       );
